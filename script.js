@@ -1,13 +1,13 @@
 
 
 
-var crsrblur = document.querySelector("#cursorblur")
-document.addEventListener("mousemove",function(dets){
-    crsrblur.style.left = dets.x - 150 + "px"
-    crsrblur.style.top = dets.y - 150 + "px"
-})
+//var crsrblur = document.querySelector("#cursorblur")
+//document.addEventListener("mousemove",function(dets){
+    //crsrblur.style.left = dets.x - 150 + "px"
+    //crsrblur.style.top = dets.y - 150 + "px"
+//})
 gsap.to("#nav",{
-    backgroundColor:"#000000fb",
+    backgroundColor:"#dfd9da7d",
     height : "120px",
     duration:0.5,
     scrollTrigger:{
