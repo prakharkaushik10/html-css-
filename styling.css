@@ -19,22 +19,6 @@ html,body{
     filter: blur(50px);
     z-index: 1;
 }*/
-#sidebar{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 30%;
-    z-index: 999;
-    background-color: rgba(255, 255, 255, 0.218);
-    backdrop-filter: blur(10px);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
 #nav{
     height: 150px;
     width: 100%;
@@ -69,9 +53,6 @@ html,body{
     background-color: rgb(13, 8, 9);
     border-radius: 15%;
     box-shadow: 0 10px 10px #3a3938a1;
-}
-#nav li:first-child{
-    margin-right: auto;
 }
 #nav img{
     height: 75px;
